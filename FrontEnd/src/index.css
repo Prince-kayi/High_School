@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 
+  'Lucida Grande', 
+  'Lucida Sans Unicode',
+   Geneva, Verdana, sans-serif;
+}
+
+code {
+  font-family:Impact, Haettenschweiler, 
+  'Arial Narrow Bold', sans-serif;
+}
+.input-group{
+  position: relative;
+  background-color: rgb(214, 77, 27);
+  width: 550px;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+.contact-wrap {
+  display: flex;
+}
+.contact-inputs {
+  margin: 25px;
+}
+.input-form-group input {
+  height: 40px;
+  width: 500px;
+  margin: 25px;
+  border-radius: 20px;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  color:whitesmoke;
+  padding-left: 10px;
+  font-weight: 800;
+}
+.input-form-group label {
+  width: 230px;
+  text-align: right;
+  margin-left: 25px;
+}
+.submit-button {
+  margin-bottom: 40px;
+  margin-left: 20px;
+}
+.submit-button p {
+  text-align: center;
+}
+.submit {
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 45px;
+  font-size: 1rem;
+  border: 2px solid blue;
+  width: 450px;
+  font-family: inherit;
+  font-weight: bold;
+  background: transparent;
+  color: blue;
+  transition: background 200ms ease-in, color 200ms ease-in;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.submit:hover {
+  color: whitesmoke;
+  background-color: blue;
+}
+.submit-button a {
+  text-decoration: none;
+  color: blue;
+}
+.submit-button a:hover {
+  text-decoration: underline;
+}
+.title{
+  margin-bottom: 35px;
+ margin-left: 160px;
+}
+.texa{
+  margin-top: 20px;
+  width: 505px;
+  margin-left: 22px;
+  height: 100px;
+}
+.outer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  height: 100vh;
+  width: 100%;
+  background-image: url(../src/toschol.webp);
+  background-size: cover;
+  background-position: center;
+}
+.contact-outer {
+  margin-top: -50px;
+  height: 110vh;
+  width: 100%;
+  background-image: url(../src/toschol.webp);
+  background-size: cover;
+  background-position: center;
+}
+.senior-outer {
+  margin-top: -50px;
+  height: 240vh;
+  width: 100%;
+  background-image: url(../src/toschol.webp);
+  background-size: cover;
+  background-position: center;
+}
+.register-outer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -50px;
+  height: 140vh;
+  width: 100%;
+  background-image: url(../src/toschol.webp);
+  background-size: cover;
+  background-position: center;
+}

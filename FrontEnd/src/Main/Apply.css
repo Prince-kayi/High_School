@@ -1,0 +1,117 @@
+.show-menu .active {
+  display: none;
+}
+.nav-links li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background-color: rgb(0, 0, 10);
+  margin-left: 20px;
+  width: 200px;
+}
+.nav-links li:hover .sub-menu-1 ul {
+  display: block;
+  padding: 15px;
+}
+.nav-links li:hover .sub-menu-1 ul li {
+  width: 160px;
+  padding: 12px;
+  text-align: left;
+}
+.sub-menu-1 ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+.sub-menu-1 {
+  display: none;
+}
+.sub-menu-2 {
+  display: none;
+}
+.angle {
+  float: right;
+  margin-top: -17px;
+
+}
+.nav-links li:hover .sub-menu-2 {
+  display: block;
+  position: absolute;
+  background-color: rgb(0, 0, 10);
+  margin-left: 20px;
+  width: 200px;
+
+}
+.nav-links li:hover .sub-menu-2 ul {
+  display: block;
+  padding: 15px;
+}
+.nav-links li:hover .sub-menu-2 ul li {
+  width: 160px;
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px dotted #fff;
+}
+.sub-menu-2 ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+}
+.sub-menu-2 {
+  display: none;
+}
+.hovers-me:hover .sub-menu-3 {
+  display: block;
+  position: absolute;
+  background-color: rgb(0, 0, 10);
+  margin-left: 149px;
+  width: 230px;
+  margin-top: -40px;
+  text-align: left;
+  z-index: 999;
+}
+.sub-menu-3 {
+  display: none;
+}
+.logged-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(../toschol.webp);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-left: 0px;
+}
+.logged-in h1 {
+  color: whitesmoke;
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+.logged-in a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 800;
+}
+.logged-in a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.fet-group {
+  position: relative;
+  background-color:darkcyan;
+  width: 550px;
+  height: 1430px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  border-radius: 20px;
+}

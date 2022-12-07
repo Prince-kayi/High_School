@@ -1,0 +1,187 @@
+.login-class {
+    background-color: coral;
+    width: 570px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    white-space: nowrap;
+    border-radius: 20px;
+}
+.login-container {
+    display: flex;
+}
+.login-form {
+    margin: 25px;
+}
+.login-form input {
+    height: 40px;
+    width: 500px;
+    margin: 25px;
+    border-radius: 20px;
+}
+.login-form label {
+    width: 230px;
+    text-align: right;
+    margin-left: 25px;
+}
+.login-submit-botton {
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.login-submit-botton p {
+    text-align: center;
+}
+.submit{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 45px;
+    font-size: 1rem;
+    border: 2px solid blue;
+    width: 450px;
+    font-family: inherit;
+    font-weight: bold;
+    background: transparent;
+    color: blue;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.submit:hover {
+    color: whitesmoke;
+    background-color: blue;
+    transform: scale(1.08);
+}
+.login-submit-botton a {
+    text-decoration: none;
+    color: blue;
+}
+.login-submit-botton a:hover {
+    text-decoration: underline;
+}
+.inn {
+    margin-bottom: 35px;
+    margin-left: 30px;
+}
+.fogot {
+    position: relative;
+    margin-left: 300px;
+    cursor: pointer;
+    text-decoration: none;
+    color: blue;
+}
+.error-msg {
+    font-size: 15px;
+    color: red;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.finally {
+    width: 100%;
+    background-color: aqua;
+    color: white;
+    font-weight: 800;
+    padding: 25px;
+    margin-top: 35px;
+    width: 550px;
+    border-radius: 20px;
+}
+.register-class {
+    position: relative;
+    background-color:cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 300px;
+    border: 1px solid black;
+    top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 740px;
+    max-height: 1050px;
+    border-radius: 20px;
+}
+.register-container {
+    display: flex;
+}
+.reg-form {
+    margin: 25px;
+    margin-top: 40px;
+}
+.reg-form-in {
+    width: 500px;
+    margin: 30px;
+    margin-left: -25px;
+    border: none;
+   background: transparent;
+}
+.reg-form-in label {
+    margin-left: 30px;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.register-submit-button {
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.reg-form-in input {
+    position: relative;
+    top: -28px;
+    margin-left: 250px;
+    width: 400px;
+    height: 40px;
+    border-radius: 20px;
+}
+.register-now {
+    height: 40px;
+    font-size: 1rem;
+    border: 2px solid blue;
+    width: 550px;
+    font-family: inherit;
+    font-weight: bold;
+    background: transparent;
+    color: blue;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.register-now:hover {
+    color: white;
+    background-color: darkblue;
+    transform: scale(1.03);
+}
+.errors-msg {
+    font-size: 15px;
+    color: red;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+.logn {
+    background-color: coral;
+    width: 500px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+.logn-wrap {
+    display: flex;
+}
+.logn h5 {
+    color: whitesmoke;
+    font-size: 20px;
+}
