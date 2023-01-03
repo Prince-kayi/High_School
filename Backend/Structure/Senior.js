@@ -52,10 +52,9 @@ const SeniorSchema=new Schema({
     type:String,
     required:true
 },
-selector1:
+},
 {
- type:String,
- required:true
-}
-})
+    timestamps: true 
+  }
+)
 module.exports=mongoose.model("senior",SeniorSchema)

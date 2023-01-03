@@ -44,7 +44,7 @@ const Contact = () => {
       <div className="contact-outer">
       <div className="input-group">
          <div className="contact-inputs">
-            <form className="input-form-group" onSubmit={Submit}>
+            <form className="inputs-form-group" onSubmit={Submit}>
             {successMsg &&<div className='finally'>{successMsg}</div>}
                <h1 className="title"> Contact Us</h1>
                <label> Name: </label>
@@ -70,7 +70,7 @@ const Contact = () => {
                   placeholder="text something"></textarea>
                                </div>
                <div className="submit-button">
-                  <button className="submit" onClick={ShowOutcome}>Send</button>
+                  <button className="submits" onClick={ShowOutcome}>Send</button>
                </div>
             </form>
          </div>

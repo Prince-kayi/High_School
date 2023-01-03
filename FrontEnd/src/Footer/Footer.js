@@ -17,7 +17,7 @@ const Footer = () => {
  <Link to="#"><FaInstagram/></Link>
  <Link to="#"><FaYoutube/></Link>
  </div>
- <p className='down'>CopyRight by Lerato</p>
+ <p className='down'>CopyRight by Prince Kayi </p>
  </footer>
       
     </div>

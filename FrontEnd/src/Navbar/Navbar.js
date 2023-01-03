@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 import { Link } from "react-router-dom"
-import { FaAngleRight } from 'react-icons/fa';
+import { FaAngleRight,FaBars } from 'react-icons/fa';
 import "./Navbar.css"
 import "../Main/Apply.css"
 const Header = () => {
     const [showLinks, setShowLinks] = useState(false)
     return (
         <header className='nav-header'>
-            <button className='side-bar' onClick={() => setShowLinks(!showLinks)}><i class="fas fa-bars" /></button>
+            <button className='side-bar' onClick={() => setShowLinks(!showLinks)}><FaBars className='bars'/></button>
             <div className='nav-logo'>
                 <h1>
                     <Link to="/" className='logo'>Mmabatho</Link>

@@ -67,7 +67,6 @@ router.post("/phases", (req, res) => {
     nextOfKinEmail:req.body.nextOfKinEmail,
     nextOfKinPhone:req.body.nextOfKinPhone,
     selector:req.body.selector,
-    selector1:req.body.selector1
    });
    senior.save()
       .then(data => {

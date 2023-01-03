@@ -115,3 +115,33 @@
   white-space: nowrap;
   border-radius: 20px;
 }
+@media screen and (max-width:980px){
+  .image{
+width: 410px;
+height: 235px;
+  }
+  .fet-group{
+    width: 420px;
+    height:1450px;
+    top: 60px;
+  }
+  .input-form-group input {
+    height: 45px;
+    width: 400px;
+    margin: 25px;
+    margin-left: 60px;
+}
+.input-form-group label {
+  width: 230px;
+  margin-left:65px;
+}
+.submit-bottom{
+  left: -65px;
+}
+.senior_grad{
+  margin-left: 60px;
+  width: 390px;
+
+}
+
+}

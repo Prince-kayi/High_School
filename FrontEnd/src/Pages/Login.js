@@ -88,7 +88,7 @@ const Login = () => {
          <div className="login-container">
             <form className="login-form" onSubmit={Submit}>
             {successMsg &&<div className='finally'>{successMsg}</div>}
-               <h1 className="title"> Login</h1>
+               <h1 className="titles"> Login</h1>
                <label>Username: </label>
                   <div>
                      <input type="text" 

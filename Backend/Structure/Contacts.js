@@ -23,5 +23,9 @@
         required:true
     },
 
- })
+ },
+ {
+    timestamps: true 
+  }
+  )
  module.exports=mongoose.model("contactUs",ContactSchema)

@@ -52,5 +52,10 @@ selector1:
  type:String,
  required:true
 },
-})
+}
+,
+{
+    timestamps: true 
+  }
+)
 module.exports=mongoose.model("fet",FetSchema)

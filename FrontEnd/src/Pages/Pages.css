@@ -1,7 +1,7 @@
 .login-class {
     background-color: coral;
     width: 570px;
-    height: 500px;
+    height: 480px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,18 +17,18 @@
     display: flex;
 }
 .login-form {
-    margin: 25px;
+    margin: 45px;
 }
 .login-form input {
     height: 40px;
     width: 500px;
-    margin: 25px;
+    margin: 35px;
     border-radius: 20px;
 }
 .login-form label {
     width: 230px;
     text-align: right;
-    margin-left: 25px;
+    margin-left: 40px;
 }
 .login-submit-botton {
     margin-bottom: 40px;
@@ -36,28 +36,6 @@
 }
 .login-submit-botton p {
     text-align: center;
-}
-.submit{
-    margin-top: 20px;
-    margin-left: 20px;
-    height: 45px;
-    font-size: 1rem;
-    border: 2px solid blue;
-    width: 450px;
-    font-family: inherit;
-    font-weight: bold;
-    background: transparent;
-    color: blue;
-    transition: background 200ms ease-in, color 200ms ease-in;
-    cursor: pointer;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    transition: 0.5s;
-}
-.submit:hover {
-    color: whitesmoke;
-    background-color: blue;
-    transform: scale(1.08);
 }
 .login-submit-botton a {
     text-decoration: none;
@@ -83,6 +61,10 @@
     margin-left: 30px;
     margin-top: -20px;
 }
+.titles{
+    margin-bottom: 35px;
+   margin-left: 160px;
+  }
 .finally {
     width: 100%;
     background-color: aqua;
@@ -185,3 +167,56 @@
     color: whitesmoke;
     font-size: 20px;
 }
+@media screen and (max-width:980px){
+    .login-class{
+      width: 420px;
+      height: 450px;
+    }
+    .login-form input {
+      height: 45px;
+      width: 400px;
+      margin: 25px;
+      margin-left: 115px;
+  }
+  .login-form label {
+    width: 230px;
+    margin-left:125px;
+  }
+  .submit{
+    margin-top: 30px;
+    width: 390px;
+    margin-left: 105px;
+    margin-bottom: 30px;
+  }
+  .titles{
+    margin-left: 250px;
+    margin-bottom: 40px;
+  }
+  .fogot{
+    left: -125px;
+  }
+  .register-class {
+    width: 440px;
+      height: 670px;
+    margin-top: 22px;
+      margin-bottom: 10px;
+      margin-left: 2px;
+}
+.reg-form {
+    margin-left: -145px;
+    margin-top: 2px; 
+}
+.reg-form-in label {
+    margin-left: 170px;
+}
+.reg-form-in input {
+    margin-left: 300px;
+    width: 280px;
+    margin-top: 7px;
+    height: 33px;
+}
+.register-now{
+    width: 400px;
+    margin-left: 150px;
+}
+  }

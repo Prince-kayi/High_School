@@ -130,6 +130,7 @@ color: whitesmoke;
 .submit-bottom {
   margin-bottom: 40px;
   margin-left: 20px;
+  position: relative;
 }
 .submit-bottom p {
   text-align: center;
@@ -165,3 +166,45 @@ color: whitesmoke;
   width: 350px;
   margin-left: 20px;
 }
+@media screen and (max-width:980px) {
+  .about-container {
+    width: 430px;
+  }
+  .about-group h1{
+    margin-bottom: 50px;
+     margin-left: -10px;
+     margin-top: 20px;
+   }
+   .faq-container {
+    width: 430px;
+  }
+   .faq-group h1{
+    font-size: 20px;
+   }
+   .faq-group p{
+    font-size: 30px;
+    margin-left: -65px;
+   }
+   .phases{
+    width: 420px;
+    height:1450px;
+  }
+  .input-form-group input {
+    height: 45px;
+    width: 400px;
+    margin: 25px;
+    margin-left: 60px;
+}
+.input-form-group label {
+  width: 230px;
+  margin-left:65px;
+}
+.submit-bottom{
+  left: -65px;
+}
+.senior_grad{
+  margin-left: 60px;
+  width: 390px;
+}
+
+  }
